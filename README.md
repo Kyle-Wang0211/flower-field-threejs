@@ -3,6 +3,8 @@
 This version is based on Aidan Nelson's `week-05-raycasting` starter from the `3d-in-the-browser` course repo:
 
 - https://github.com/AidanNelson/3d-in-the-browser/tree/main/week-05-raycasting
+- Repo: https://github.com/Kyle-Wang0211/flower-field-threejs
+- Live demo: https://kyle-wang0211.github.io/flower-field-threejs/
 
 What was adapted from the starter:
 
