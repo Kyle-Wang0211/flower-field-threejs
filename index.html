@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Plant Flowers in the Field</title>
+
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://cdn.jsdelivr.net/npm/three@0.183.2/build/three.module.js",
+          "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.183.2/examples/jsm/"
+        }
+      }
+    </script>
+
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background: #bfe8ff;
+        font-family: "Trebuchet MS", sans-serif;
+      }
+
+      #hud {
+        position: fixed;
+        top: 18px;
+        left: 18px;
+        z-index: 10;
+        max-width: 320px;
+        padding: 14px 16px;
+        border-radius: 18px;
+        background: rgba(255, 255, 255, 0.84);
+        color: #204124;
+        box-shadow: 0 18px 40px rgba(29, 74, 34, 0.16);
+        backdrop-filter: blur(10px);
+      }
+
+      #hud h1 {
+        margin: 0 0 6px;
+        font-size: 1.15rem;
+      }
+
+      #hud p {
+        margin: 0;
+        font-size: 0.95rem;
+        line-height: 1.4;
+      }
+
+      canvas {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="hud">
+      <h1>Click Anywhere on the Grass</h1>
+      <p>Move the mouse to aim, then click to plant a flower and watch it bloom.</p>
+    </div>
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>
